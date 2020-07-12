@@ -11,11 +11,52 @@ Step 1: Creation of tensorflow environment in anaconda
 and activate the enviornment `activate tf_new`.
 
 The packages like opencv and numpy are also installed using `conda install opencv-contrib-python` and jupyter notebook is launched.
+
 Step 2: Dataset is created firstly under train folder where my images and Johhny Depp images is taken from google. The github repository is created and files are pushed into it.
 Train Data: 
-![Train data](transfervgg/transferlearning/data/train/rahul/)
+![Train data](/transferlearning/data/train/rahul/)
 and Test data:
-![Test data](transfervgg/transferlearning/data/test/jdepp/)
+![Test data](/transferlearning/data/test/jdepp/)
 are created.
 Step 3:  Transferlearning-VGG16.ipynb is executed.
-1.
+
+
+1. It shows the importing of different packages.
+
+![](/transferlearning/Screenshot%20(223).png) 
+
+2. The train data is trained and classes is found out.Later the dataset is loaded.
+
+![](/transferlearning/Screenshot%20(225).png)
+
+3.The accuracy is found out with help of VGG16 model.
+
+![](/transferlearning/Screenshot%20(224).png)
+
+Step 4: Model is saved using .h5 extension
+
+![](/transferlearning/Screenshot%20(226).png)
+
+Step 5: The saved model is validated using the test data and accuracy is found out in comaparison of both person
+
+![](/transferlearning/Screenshot%20(227).png)
+
+
+Conclusion: We can use different models like MobileNet, Resnet,VGG19, Inception v3 for training and testing data.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
